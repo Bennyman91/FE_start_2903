@@ -2,10 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta second="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+
+    <h1>
+        Content
+    </h1>
+    <img src="picture/pngwing.com.png" width="150" height="150" alt="smile face">
+    <img src="smilecopy.png" alt="smile copy">
+
+
     <nav>
         <a href="#">Link 1</a>
         <a href="http://caniuse.com">Can I USE</a>
@@ -21,9 +29,134 @@
         <a href="http://telegram-group/">Telegram-group</a>
 
         </p>
-
-        
     </nav>
+    <section>
+        <table border="4" style="width: 100%;">
+            <thead>
+                <tr>
+                    <th colspan="2">
+                        second
+
+                        Age
+                    </th>
+                    <th>
+                        Skills
+                    </th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Tom
+                    </td>
+                    <td>
+                        20
+                    </td>
+                    <td rowspan="2">
+                        Html, css, git
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Anna
+                    </td>
+                    <td>
+                        25
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        Bob
+                    </td>
+                    <td>
+                        24
+                    </td>
+                    <td>
+                        Html, css, figma
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Tester
+                    </td>
+                    <td>
+                        240
+                    </td>
+                    
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
     
+    <br>
+    <form action="">
+        <div>
+            <label for="Usersecond">User second</label>
+            <input placeholder="Type user second" id="Usersecond" type="text">
+        </div>
+            <br>
+        <div>
+                <label for="UserPassword">User Password</label>
+                <input placeholder="Type min 6 characters password" id="UserPassword" type="password">
+        </div>
+            <br>
+        <div>
+            <label for="Usersecondname">User second name</label>
+            <input disabled placeholder="Type user secondname" id="Usersecondname" type="text">
+        </div>
+             <br>
+        <textarea name="mesagge" id="mesagge" cols="60" placeholder="Type your mesagge" rows="10"></textarea>
+             <br>    
+        <select name="Skills" id="skills">
+                <option value="01">First Skill HTML</option>
+                <option value="02">Second skill css</option>
+                <option disabled value="03">Git</option>
+                <option value="04">JS</option>
+                <option value="05">Figma</option>
+            </select>
+             <br>
+            <div>
+                <h3>
+                    Delivery
+                </h3>
+                <div>
+                    <label for="Self">Delivery self</label>
+                    <input id="self" name="Delivery" type="radio">
+            </div>
+             <br>
+             <div>
+                <label for="Post">Ukr Post</label>
+                <input id="post" name="Delivery" type="radio">
+         </div>
+         <br>
+         <div>
+            <label for="Postman">Delivery postman</label>
+            <input id="postman" name="Delivery" type="radio">
+         </div>
+         </div>
+         <br>
+         <div>
+             <h3>
+                 User hobby
+             </h3>
+             <div>
+                 <label for="sport">Sport</label>
+                 <input id="sport" type="checkbox">
+         </div>
+          <br>
+          <div>
+             <label for="music">Music</label>
+             <input id="Music"  type="checkbox">
+      </div>
+      <br>
+      <div>
+         <label for="Read">Read</label>
+         <input id="Read" type="checkbox">
+      </div>
+      </div>
+    </form>
 </body>
 </html>
