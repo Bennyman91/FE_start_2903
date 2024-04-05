@@ -1,0 +1,61 @@
+body{
+    background-color: lime;
+}
+
+h3{
+    color: blueviolet;
+    background-color: darkcyan;
+}
+/* h4{
+    color: yellow;
+    color: black;
+}
+h5{
+    color: yellow;
+    color: black;
+}
+h6{
+    color: yellow;
+    color: black;
+} */
+/* DRY don't repeat yourself */
+h4,h5,h6{
+    background-color: rgb(122, 122, 15);
+    color: black;
+}
+h4{
+    border: 2px solid black;
+}
+h5{
+    text-align: right;
+}
+h6{
+    text-align: center;
+}
+h3{
+    color: rgb(214, 176, 249);
+    background-color: rgb(2, 8, 8);
+}
+div span{
+    color: red;
+}
+span{
+    color: white;
+    font-size: 20px;
+}
+p{
+    color: yellow;
+    background-color: black;
+}
+body p span{
+    color: green;
+
+}
+#super{
+    color: darkblue;
+}
+body span{
+    color: white;
+
+}
+
