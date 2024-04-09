@@ -1,9 +1,7 @@
-body{
-    background-color: rgb(82, 79, 41);
-    border: 3px;
-    width: 916px;
-    height: 5820px;
-    text-align: center;
+.body{
+    block-size: auto;
+    block-size: auto;
+writing-mode: horizontal-tb;
 }
 .center-content{
     text-align: center;
