@@ -1,7 +1,6 @@
 .body{
     block-size: auto;
-    block-size: auto;
-writing-mode: horizontal-tb;
+    writing-mode: horizontal-tb;
 }
 .center-content{
     text-align: center;
