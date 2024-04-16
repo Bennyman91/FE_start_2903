@@ -29,5 +29,52 @@
     /* margin-right: 580px; */
     border: 2px solid black;
     box-sizing: border-box;
+    background-color: yellow;
+    /* background-color: transparent; */
+}
+.size-block{
+    /* background-color: lightblue; */
+    background-color: rgba(34, 189 , 240, 0.4);
+    border-radius: 10px;
+}
+input, button{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+/* -webkit-box-shadow: -8px - 1px 52px -2px rgba (209, 39, 209, 1);
+-moz-box-shadow: -8px -1px 52px -2px rgba(209,39,209,1); */
+box-shadow: -8px -1px 52px -2px rgba(209,39,209,1);
+border-radius: 183px 62px 75px 120px;
+}
+.link-row{
+    font-size: 0;
+}
+.link-row a:last-child{
+    margin-right: 0;
 
 }
+a{
+    /* display: block; */
+    display: inline-block;
+    border: 1px solid black;
+    /* margin-right: -5px; */
+    font-size: 16px;
+    margin-right: 8px;
+}
+a>img{
+    width: 50px;
+}
+.user-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin: 50px auto;
+    
+
+
+
+
+}
+
