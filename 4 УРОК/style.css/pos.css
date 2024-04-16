@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+    margin: 0px;
+}
+header{
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    /* position: static; default */
+   
+    /* position: absolute; */
+    /* position: relative; */
+    /* position: fixed; */
+    position: sticky;
+    /* z-index: */
+    top: 0;
+
+    /* top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px; */
+    z-index: 1;
+
+}
+button{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}
+p{
+    width: 150px;
+    font-size: 30px;
+    margin: 0 auto;
+}
+.absolute{
+    background-color: blueviolet;
+    padding: 30px;
+    color: white;
+    position: absolute;
+    margin: 0 auto;
+    top: 200px;
+    left: 200px;
+}
+.relative{
+    width: 350px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: orange;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    z-index: 2;
+    background-color: ;
+
+}

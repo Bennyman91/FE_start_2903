@@ -5,7 +5,10 @@
 .size-block{
     border: 3px solid red;
     /* width: 350px; */
-    /* /* height: 350px; */
+    height: 200px;
+    /* overflow: auto; */
+    overflow-x: auto;
+    overflow-y: hidden;
     /* padding: 25px ;  */
     /* padding: 25px 50px;  */
     padding: 40px 25px 30px 20px;
@@ -36,6 +39,17 @@
     /* background-color: lightblue; */
     background-color: rgba(34, 189 , 240, 0.4);
     border-radius: 10px;
+}
+.size-block span{
+    color: blueviolet;
+}
+.size-block:hover{
+    background-color: green;
+    color: white;
+}
+.size-block:hover span{
+    color: yellow;
+
 }
 input, button{
     background-color: gray;
@@ -71,10 +85,19 @@ a>img{
     border-radius: 100px;
     overflow: hidden;
     margin: 50px auto;
-    
-
-
-
-
 }
+.img-block,
+.text-block{
+    display: inline-block;
+}
+.img-block{
+    width: 50px;
+}
+.text-block{
+    width: 180px;
+}
+.img-block>img{
+    width: 50px;
+}
+
 
