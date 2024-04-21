@@ -37,3 +37,32 @@
 .fb-icon.disabled{
     
 }
+body{
+    margin: 0;
+    height: 100%;
+}
+.parallax-block{
+    padding-top: 200px;
+    min-height: 100vh;
+    background-image: url(../img/bg.jpeg);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: cover;
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+    background-position: top center;
+}
+header,
+.content{
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 200px;
+    background-color: white;
+}
+.fa-medal{
+    font-size: 120px;
+    color: rosybrown;
+}
+.icon-example p{
+    font-size: 24px;
+}
