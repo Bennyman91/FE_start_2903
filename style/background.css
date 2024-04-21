@@ -1,0 +1,12 @@
+.bg-example{
+    height: 900px;
+    width: 1900px;
+    background-color: yellow;
+    /* background-image: url(../img/avatar\ \(1\).png), url(../img/1.webp); */
+    background-image: url(../img/avatar\ \(1\).png)
+    /* background-repeat: repeat-x; */
+    background-repeat: repeat-y;
+}
+.bg-example:hover{
+    background-color: red;
+}
