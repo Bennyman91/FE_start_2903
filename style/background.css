@@ -3,10 +3,37 @@
     width: 1900px;
     background-color: yellow;
     /* background-image: url(../img/avatar\ \(1\).png), url(../img/1.webp); */
-    background-image: url(../img/avatar\ \(1\).png)
+    background-image: url(../img/avatar\ \(1\).png);
     /* background-repeat: repeat-x; */
-    background-repeat: repeat-y;
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    /* background-size: contain; */
+    /* background-size: cover; */
+    /* background-position: bottom right; */
+    /* background-position: bottom left; */
+    background-position: top 150px left 200px;
+
 }
 .bg-example:hover{
     background-color: red;
+}
+.sprite{
+    border: 3px solid black;
+    width: 91px;
+    height: 131px;
+    background-image: url(https://img.freepik.com/premium-vector/eskimo-boy-game-sprites_7814-535.jpg);
+    background-position: left -31px top -18px;
+}
+.sprite:hover{
+    background-position: left -31px top -420px;
+}
+.fb-icon{
+
+}
+.fb-icon:hover{
+
+}
+.fb-icon.disabled{
+    
 }
