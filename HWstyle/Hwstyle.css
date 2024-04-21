@@ -1,0 +1,30 @@
+
+.fb-icon{
+    border: 3px solid black;
+    width: 924px;
+    height: 84px;
+    background-repeat: no-repeat;
+    background-image: url(../HW/HWimg/sprite-icon-29.jpg);
+    background-position: left 0px top -85px;
+    margin-bottom: 20px;
+}
+.fb-icon:hover{
+    background-position: left 0px top 0px;
+}
+.fb-icon.disabled{
+    border: 3px solid black;
+    width: 924px;
+    height: 84px;
+    background-repeat: no-repeat;
+    background-image: url(../HW/HWimg/sprite-icon-29.jpg);
+    background-position: left 0px top -85px;
+}
+.fb-icon.disabled:hover{
+    background-position: left 0px top -169px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
