@@ -15,4 +15,68 @@ body{
 .d-flex{
     display: flex;
     border: 2px solid black;
+    width: 80%;
+    margin: 50px auto;
+    height: 500px;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: flex-direction + flex-wrap; example */
+    /* flex-flow: row-reverse wrap; */
+    /* justify-content: flex-start; standart */
+    /* justify-content: flex-end; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+    /* align-items: baseline; */
+    /* column-gap: 20px;
+    row-gap: 50px; */
+
+}
+.item{
+    padding: 20px;
+    /* min-width: 400px; */
+    width: 100%;
+    /* width: 10%; */
+    min-width: 100px;
+    text-align: center;
+    background-color: lightgray;
+    /* order: 0; */
+
+}
+.item:nth-child(2){
+    background-color: rgb(238, 76, 240);
+    /* font-size: 58px; */
+    /* align-self: flex-start; */
+}
+.item:nth-child(3){
+    background-color: rgb(87, 124, 161)
+    /* align-self: flex-end; */
+}
+.item:nth-child(4){
+    background-color: rgb(191, 78, 12);
+    /* align-self: center; */
+}
+.item:nth-child(5){
+    background-color: rgb(203, 11, 120);
+}
+.item:nth-child(6){
+    background-color: rgb(10, 160, 102);
+    order: 3;
+}
+.item:nth-child(7){
+    background-color: rgb(15, 61, 107);
+    order: 2;
+}
+.item:nth-child(8){
+    background-color: rgb(59, 86, 240);
+    order: 1;
 }
