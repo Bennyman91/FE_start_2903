@@ -50,6 +50,7 @@ body{
     text-align: center;
     background-color: lightgray;
     /* order: 0; */
+    /* flex-grow: 2; */
 
 }
 .item:nth-child(2){
@@ -70,13 +71,13 @@ body{
 }
 .item:nth-child(6){
     background-color: rgb(10, 160, 102);
-    order: 3;
+    /* order: 3; */
 }
 .item:nth-child(7){
     background-color: rgb(15, 61, 107);
-    order: 2;
+    /* order: 2; */
 }
 .item:nth-child(8){
     background-color: rgb(59, 86, 240);
-    order: 1;
+    /* order: 1; */
 }
