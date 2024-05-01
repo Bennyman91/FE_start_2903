@@ -1,41 +1,50 @@
-
-.fb-icon{
-    border: 3px solid black;
-    width: 924px;
-    height: 84px;
-    background-repeat: no-repeat;
-    background-image: url(../HWimg/sprite-icon-29.jpg);
-    background-position: left 0px top -85px;
-    margin-bottom: 20px;
-}
-.fb-icon:hover{
-    background-position: left 0px top 0px;
-}
-.fb-icon.disabled{
-    border: 3px solid black;
-    width: 924px;
-    height: 84px;
-    background-repeat: no-repeat;
-    background-image: url(../HWimg/sprite-icon-29.jpg);
-    background-position: left 0px top -85px;
-}
-.fb-icon.disabled:hover{
-    background-position: left 0px top -169px;
-}
-body{
-    width: 100%;
-    height: 100%;
+body {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-i{
-    font-size: 80px;
-    color: rgb(37, 51, 247);
-    text-align: center;
-    margin-left: 50px;
+.buttonsContainer {
+    display: flex;
+    column-gap: 10px;
 }
-.fa-brands, 
-.fa-facebook{
-    margin-bottom: 20px;
+
+.spriteButton {
+    background-image: url(../HWimg/sprite-icon-29.jpg);
+    background-position: left 0px top 0px;
+}
+.spriteButton:hover {
+    background-position: left 0px top -84px;
+}
+
+.spriteButton.disabled {
+    background-position: left 0px top -168px;
+}
+.spriteButton.disabled:hover {
+    background-position: left 0px top -168px;
+}
+
+.spriteButton,
+.faButton {
+    width: 84px;
+    height: 84px;
+    border: none;
+    cursor: pointer;
+}
+
+.disabled.spriteButton,
+.disabled.faButton {
+    cursor: initial;
+}
+
+.faButton {
+    font-size: 75px;
+    background: none;
+    color: rgb(0, 114, 254);
+}
+
+.faButton.disabled {
+    color: grey;
 }
