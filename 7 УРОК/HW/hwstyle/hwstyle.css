@@ -1,0 +1,13 @@
+
+:root{
+    --main-button-bg:orange;
+    --secondary-button-bg:gray;
+    --base-font-size:14px;
+}
+button{
+    padding: 1rem 2rem;
+}
+
+@media(max-width:800px){
+
+}

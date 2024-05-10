@@ -1,0 +1,75 @@
+
+:root{
+    --buttonBg:red;
+    --buttonBorderRadius:20px;
+    --buttonFontColor:white;
+    --font-family-main:"Jersey 15", sans-serif;
+    --secondaryFontFamily:"Roboto", sans-serif;
+    /* --redBgComponent:green; */
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+/* vh, vw */
+section{
+    min-height: 100vh;
+    /* min-height: 100%; */
+    /* width: 50%; */
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section:nth-child(2){
+    background-color: darkcyan;
+    /* width: 50vw; */
+}
+section:nth-child(3){
+    background-color: rgb(37, 8, 101);
+}
+h1{
+    color: white;
+    font-size: 3vw;
+    font-family: var(--secondaryFontFamily);
+    
+}
+.example{
+    /* width: 80vw; */
+    width: 80%;
+    background-color: blueviolet;
+}
+.variableBtn{
+    background-color: var(--buttonBg);
+    color: var(--buttonFontColor);
+    border-radius: var(--buttonBorderRadius);
+    padding: 20px 30px;
+    border: 1px solid green;
+    font-family: var(--font-family-main);
+    font-size: 50px;
+}
+.myCustomBtn{
+    --buttonBg:blue;
+    --buttonBorderRadius:4px;
+    --buttonFontColor:yellow;
+
+    background-color: var(--buttonBg);
+    color: var(--buttonFontColor);
+    border-radius: var(--buttonBorderRadius);
+    padding: 20px 30px;
+    font-size: 34px;
+    font-weight: bold;
+}
+@media(max-width:500px){
+    :root{
+        --buttonBg:orange;
+        --buttonBorderRadius:10px;
+        --buttonFontColor:black;
+        /* --redBgComponent:green; */
+    }
+    h1{
+        font-size: 30px;
+    }
+}
