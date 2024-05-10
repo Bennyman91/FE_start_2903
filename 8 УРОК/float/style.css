@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 80%;
+    /* height: 100px; */
+    margin: 0 auto;
+    background-color: green;
+    border: 2px solid black;
+    /* overflow: hidden; */
+}
+.left,
+.right{
+    float: left;
+    /* float: right; */
+    width: 50%;
+    height: 200px;
+}
+.left{
+    background-color: yellow;
+
+}
+.right{
+    background-color: blue;
+    position: relative;
+    right: -100px;
+}
+.clear::before,
+.clear::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.float-img{
+    float: left;
+    width: 25%;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.wrapper p{
+    font-size: 32px;
+}

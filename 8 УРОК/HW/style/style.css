@@ -1,0 +1,42 @@
+:root{
+    --main-font:"Inter", sans-serif;
+    --main-font-weigth:400;
+    --secondary-font-weight:600;
+    --main-text-color: rgb(12, 13, 31);
+    --border-radius:12px;
+    --title-bg:rgb(241, 239, 254);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--main-font);
+    font-optical-sizing: auto;
+    font-weight: var(--main-font-weigth);
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    font-size: 14px;
+}
+main{
+    width: 83%;
+    margin: 50px auto;
+}
+.user-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "img wide wide"
+    "img wide wide";
+
+}
+
+.about-user-info{
+    background-color: var(--title-bg);
+    border-radius: var(--border-radius);
+    padding: 8px;
+}
+.about-user-info.big{
+    padding: 24px;
+}
